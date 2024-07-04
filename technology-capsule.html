@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body class="technology">
+  <header>
+    <img src="assets/logo.svg" alt="logo">
+    <hr>
+    <nav>
+      <a href="index.html"><span>00</span>Home</a>
+      <a href="destination-moon.html"><span>01</span>Destination</a>
+      <a href="crew-commander.html"><span>02</span>Crew</a>
+      <a class="active" href="technology-vehicle.html"><span>03</span>Technology</a>
+    </nav>
+    <img class="icon-hamburger" src="assets/shared/icon-hamburger.svg" alt="icon-hamburger">
+  </header>
+
+  <div class="title">
+    <span>03</span>
+    <h2 class="title-p">Space Launch 101</h2>
+  </div>
+
+  <section class="technology-section">  
+     
+    <div class="technology-container">
+      <nav>
+        <a href="technology-vehicle.html"><button>1</button></a>
+        <a href="technology-spaceport.html"><button>2</button></a>
+        <a href="technology-capsule.html"><button class="active">3</button></a>
+      </nav>
+      
+      <div class="technology-infos">
+        <h3>The terminology...</h3>
+        <h1>Space capsule</h1>
+        <p class="technology-p">  A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+          capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
+          you'll spend your time during the flight. It includes a space gym, cinema, 
+          and plenty of other activities to keep you entertained.
+        </p>
+      </div>
+    </div>
+
+    <picture>
+      <source media="(max-width: 1024px)" srcset="assets/technology/image-space-capsule-landscape.jpg">
+      <source media="(min-width: 768px)" srcset="assets/technology/image-space-capsule-portrait.jpg">
+      <img class="tech-img" src="assets/technology/image-space-capsule-portrait.jpg" alt="image-space-capsule">
+    </picture>
+  </section>
+
+  <div class="mobile-navigation">
+    <img class="icon-close" src="assets/shared/icon-close.svg" alt="icon-close">
+    <nav>
+      <a href="index.html"><span>00</span>Home</a>
+      <a href="destination-moon.html"><span>01</span>Destination</a>
+      <a href="crew-commander.html"><span>02</span>Crew</a>
+      <a class="active" href="technology-vehicle.html"><span>03</span>Technology</a>
+    </nav>
+  </div>
+</body>
+</html>
