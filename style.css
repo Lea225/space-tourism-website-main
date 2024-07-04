@@ -104,7 +104,6 @@ header a::after,header a.active::after,.destination-section a::after,
     transform: translateX(-50%);
 }
 .destination-section a::after,
-header a.active::after,
 .destination-section a.active::after{
     left: 50%;
 }
@@ -360,8 +359,11 @@ header a span,.mobile-navigation span{
     }
     header a::after {
         bottom: -32px;
-        left: 55%; 
+        left: 50%;
         width: 0px; 
+    }
+    header a.active::after{
+        left: 50%;
     }
     header nav span{
         display: none;
